@@ -1,0 +1,6 @@
+streamlit>=1.29
+numpy
+pandas
+altair
+graphviz
+python-graphviz
