@@ -10,7 +10,6 @@ dependencies:
   - altair
 
   # --- graph drawing ----------------------------------------
-  - graphviz            # C library & CLI (`dot`)
   - python-graphviz     # Python wrapper
 
   # --- JupyterLab -------------------------------------------
