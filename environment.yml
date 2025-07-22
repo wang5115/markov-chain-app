@@ -1,0 +1,17 @@
+name: markov_chain_app
+channels:
+  - conda-forge
+dependencies:
+  # --- core runtime -----------------------------------------
+  - python=3.10
+  - streamlit>=1.29
+  - numpy
+  - pandas
+  - altair
+
+  # --- graph drawing ----------------------------------------
+  - graphviz            # C library & CLI (`dot`)
+  - python-graphviz     # Python wrapper
+
+  # --- JupyterLab -------------------------------------------
+  - jupyterlab>=4.0     # full web-based notebook & IDE
